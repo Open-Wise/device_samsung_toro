@@ -14,7 +14,7 @@ $(call inherit-product, vendor/slim/config/common_nexus.mk)
 $(call inherit-product, vendor/slim/config/common_ledflash.mk)
 
 PRODUCT_COPY_FILES +=  \
-    vendor/slim/prebuilt/hdpi/bootanimation.zip:system/media/bootanimation.zip
+    vendor/slim/prebuilt/xhdpi/bootanimation.zip:system/media/bootanimation.zip
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.camera.res=5MP
